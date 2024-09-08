@@ -1,9 +1,7 @@
-![image](https://github.com/user-attachments/assets/ad5a3402-1382-49e3-83cc-a7e5eff4075d)
-<div align=center> 
-![image](https://github.com/user-attachments/assets/ad5a3402-1382-49e3-83cc-a7e5eff4075d)
-</div>
+# 음악 스트리밍 사이트 README
+***
 <p align="center">
-  <img src="[이미지경로](https://github.com/user-attachments/assets/ad5a3402-1382-49e3-83cc-a7e5eff4075d)">
+  <img src="https://github.com/user-attachments/assets/0d436172-4aaf-4111-b13c-98b4426f35cc">
 </p>
 
 # surfer 
