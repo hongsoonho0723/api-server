@@ -40,6 +40,14 @@
   <img width="500px", src="https://github.com/user-attachments/assets/313f19ff-2185-45aa-a772-5f8c0aaff4c7">
 </p>
 -->
+
+<br>
+
+# 데이터 베이스 구조
+
+![image](https://github.com/user-attachments/assets/c4d1c7d7-e3e9-4fd8-b564-b9eaf5452f61)
+
+
 # 프로젝트 구조
 
 ```
