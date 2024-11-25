@@ -135,4 +135,29 @@ src
   - 가수가 앨범 등록을 신청할 때 앨범 이미지와 음원 파일을 첨부하고 신청이 완료되면 해당 파일은 AWS S3에 저장이 되고 DB에는 등록한 파일 이름이 저장된다
 
 
+# REST API 정의
+
+통합 검색, 다운로드, 앨범 등록 신청, 신청리스트 조회삭제, 파일 업로드에 해당하는는 REST API를 제공합니다.
+
+##  통합 검색
+| URL                        | Method | Request | Description                                                       |
+| -------------------------- | ------ | ------------ | ----------------------------------------------------------------- |
+| /api/search/{keyword}    | GET    | keyword         | keyword가 들어간 앨범, 플레이리스트 조회 |  
+
+##  음악 다운
+| URL                        | Method | Request | Description                                                       |
+| -------------------------- | ------ | ------------ | ----------------------------------------------------------------- |
+| /api/song/file/{id}    | GET    | id         | id에 해당하는 음악을 다운로드 |  
+
+##  앨범 등록 신청
+| URL                        | Method | Request | Description                                                       |
+| -------------------------- | ------ | ------------ | ----------------------------------------------------------------- |
+| /api/album/save    | POST    | songtitle, songnumer, lyrics, genre, songstate, soundsourcename, producer | 앨범 등록 신청 |  
+
+## 마이페이지
+| URL                        | Method | Request | Description                                                       |
+| -------------------------- | ------ | ------------ | ----------------------------------------------------------------- |
+| /api/album/status    | POST    | songtitle, songnumer, lyrics, genre, songstate, soundsourcename, producer | 신청 조회 |  
+| /api/album/delete/{id}    | DELETE    | id | 신청 삭제  | 
+| /api/album/delete/{albumSeq}    | GET    | albumSeq | albumSeq에 해당하는 앨범 상세보기 | 
 
